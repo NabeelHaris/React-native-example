@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Linking">
+        <Stack.Navigator initialRouteName="ProductList">
           <Stack.Screen name="Linking" component={LinkingScreen} />
           <Stack.Screen name="Signup" component={Signup} />
           <Stack.Screen name="ProductList" component={ProductList} />

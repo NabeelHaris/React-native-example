@@ -42,9 +42,11 @@ const CardComponent = (props) => {
   useEffect(() => {
     if (!product.productsList?.length) {
       console.log("cartData:", product);
+      setCartData([]);
       setCount(0);
+      console.log("d-cartData:-->", cartData);
     }
-  }, [product]);
+  }, []);
 
   return (
     <>

@@ -55,7 +55,11 @@ const Cart = (props) => {
     dispatch(setCartProduct(product.productList));
     if (product.productList.length == 0) {
       setTotalPrice(0);
-      navigation.navigate("ProductList")
+      // navigation.navigate("ProductList")
+    } else {
+      const deletePrice = product.productList[index]?.item.price;
+      console.log("deletePrice:", deletePrice);
+      setTotalPrice(deletePrice);
     }
   }
 
