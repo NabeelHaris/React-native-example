@@ -5,21 +5,7 @@ import {getProductList} from '../../../apis/ProductApi'
 import { connect } from 'react-redux';
 
 const ProductList = (props) => {
-  // const Stack = createNativeStackNavigator();
-  // const navigation = useNavigation();
-  // const products = useSelector(state => state);
-  // const dispatch = useDispatch();
-  // console.log('products', products);
-  // const [data, setData] = useState([]);
-
-  // function getList() {
-  //   axios.get('https://fakestoreapi.com/products').then(res => {
-  //     // console.log('res', res)
-  //     dispatch(setProducts(res.data));
-  //     // setData(res.data);
-  //   });
-  // }
-
+  
   useEffect(() => {
     // getList();
     props.getProductList()

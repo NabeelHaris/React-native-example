@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
-INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
-MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
+MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
 MERGED from [:react-native-vector-icons] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/24c7b3b7628557c2352d51b3335f48b6/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-gesture-handler] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.67.3] /home/nabeelahmad/.gradle/caches/transforms-3/92ad874927ba6226f66e1447581633a4/transformed/jetified-react-native-0.67.3/AndroidManifest.xml:2:1-11:12
@@ -38,22 +39,22 @@ MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/nabeelahmad/.gradle/cach
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/nabeelahmad/.gradle/caches/transforms-3/8a109fcaa05681d33b893052be5c5180/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/f272c83ce99c65a36b1ec4addef4bce9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/ab7c085cac4d28c8303515c95cb9326f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/309a9cea384a160852a988eae402c8c1/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/9b6cc75e89d4038448f147e4b5cd437c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/01248b3ca3ab2f864666b4ccbf4875de/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/0723fe7ecd4c2478c3e1bb5dcd2061ba/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.4] /home/nabeelahmad/.gradle/caches/transforms-3/dc3a6ae223c93fb1112ff5fe94897d21/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.2.3] /home/nabeelahmad/.gradle/caches/transforms-3/ef3e5323bf0baf6fd12b96b59e863138/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/e987749f63068a1794847e2301a47d83/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/1e883fcca4be0e4894b79c7ad7799303/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/70151c5920c4591167abb899c9f7dabf/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/e5adcc27df50a79beaff0d901fa0f09e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] /home/nabeelahmad/.gradle/caches/transforms-3/7405f0ccd256d79609480792c9e36ea6/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/e1c3d84f7e10301771a694b3f57c324a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/49fa8ed03dbf63e3c512395961f08f85/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/04d5eb98ae86f5903d150970f0c82b3c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/0c11a4ffdfed5eecf03d4da26ae0c052/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/ca3d4bf9607fd0a4c7360c583538bbd8/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -64,95 +65,95 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nabeelahmad/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/1f6dfcb72bbd400df1602918b0934fe7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/342de189d270b2b14d86741be167320b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/078af509c14b3ccfe53eaf4c7b72604f/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/b632ba35fc3ce7ef2fe1af80f1c54dc1/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/2d239d6a3b165f234e588104d93b0bc4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:2:3-31
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:70-98
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:2:3-31
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:70-98
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:1-19:12
 		INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:3:3-65
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:3:20-62
 application
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:5-24:19
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:3-18:17
+MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:3-18:17
+MERGED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:3-18:17
 MERGED from [com.facebook.react:react-native:0.67.3] /home/nabeelahmad/.gradle/caches/transforms-3/92ad874927ba6226f66e1447581633a4/transformed/jetified-react-native-0.67.3/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.67.3] /home/nabeelahmad/.gradle/caches/transforms-3/92ad874927ba6226f66e1447581633a4/transformed/jetified-react-native-0.67.3/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/nabeelahmad/.gradle/caches/transforms-3/e4029841d7aaf407dba19c713be08024/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/nabeelahmad/.gradle/caches/transforms-3/e4029841d7aaf407dba19c713be08024/transformed/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/7c0c7e113c074df493b9385345dc4b6b/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/7c0c7e113c074df493b9385345dc4b6b/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabeelahmad/.gradle/caches/transforms-3/086048bd0b6a6bf655f4694648e3d9ba/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nabeelahmad/.gradle/caches/transforms-3/086048bd0b6a6bf655f4694648e3d9ba/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:48-80
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:48-80
 	tools:ignore
 		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:116-161
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:116-161
 	tools:targetApi
 		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:81-115
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:81-115
 	android:allowBackup
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:162-189
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:162-189
 	android:theme
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:190-221
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:190-221
 	android:usesCleartextTraffic
 		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:16-47
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:5:16-47
 activity#com.awesomeproject.MainActivity
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:5-17:16
 	android:label
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:44-76
 	android:launchMode
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:155-186
 	android:windowSoftInputMode
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:187-229
 	android:configChanges
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:16:9-86
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:77-154
 	android:name
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:6:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:7:7-10:23
 action#android.intent.action.MAIN
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:8:9-61
 	android:name
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:8:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:9:9-69
 	android:name
-		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml:9:19-66
 uses-sdk
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/main/AndroidManifest.xml
@@ -165,6 +166,8 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/nabeelahm
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/24c7b3b7628557c2352d51b3335f48b6/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /home/nabeelahmad/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-gesture-handler] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/nabeelahmad/Project/React-native/react-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -223,18 +226,24 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabeel
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/f272c83ce99c65a36b1ec4addef4bce9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/ab7c085cac4d28c8303515c95cb9326f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/ab7c085cac4d28c8303515c95cb9326f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/309a9cea384a160852a988eae402c8c1/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/309a9cea384a160852a988eae402c8c1/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/9b6cc75e89d4038448f147e4b5cd437c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/9b6cc75e89d4038448f147e4b5cd437c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/01248b3ca3ab2f864666b4ccbf4875de/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/01248b3ca3ab2f864666b4ccbf4875de/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/0723fe7ecd4c2478c3e1bb5dcd2061ba/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/0723fe7ecd4c2478c3e1bb5dcd2061ba/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.4] /home/nabeelahmad/.gradle/caches/transforms-3/dc3a6ae223c93fb1112ff5fe94897d21/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.4] /home/nabeelahmad/.gradle/caches/transforms-3/dc3a6ae223c93fb1112ff5fe94897d21/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.2.3] /home/nabeelahmad/.gradle/caches/transforms-3/ef3e5323bf0baf6fd12b96b59e863138/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.3] /home/nabeelahmad/.gradle/caches/transforms-3/ef3e5323bf0baf6fd12b96b59e863138/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/e987749f63068a1794847e2301a47d83/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/e987749f63068a1794847e2301a47d83/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/1e883fcca4be0e4894b79c7ad7799303/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/1e883fcca4be0e4894b79c7ad7799303/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/70151c5920c4591167abb899c9f7dabf/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -247,14 +256,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabeelahmad/.gr
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/e1c3d84f7e10301771a694b3f57c324a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/49fa8ed03dbf63e3c512395961f08f85/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/49fa8ed03dbf63e3c512395961f08f85/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/540dbfb90b248d7b59cd154497c15f99/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/c9db1d01625fa279f6f54b47d71dc4f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/69ec0e7b032d979a0b7bec4a6ef7286d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/42fc10495a8bc8a878c7280888ad32dd/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/nabeelahmad/.gradle/caches/transforms-3/9f18c6b50baa776d71894ad120630276/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/04d5eb98ae86f5903d150970f0c82b3c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/04d5eb98ae86f5903d150970f0c82b3c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/nabeelahmad/.gradle/caches/transforms-3/0c11a4ffdfed5eecf03d4da26ae0c052/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
@@ -275,8 +278,8 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabeelahmad/.gradle/ca
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/342de189d270b2b14d86741be167320b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/078af509c14b3ccfe53eaf4c7b72604f/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/nabeelahmad/.gradle/caches/transforms-3/078af509c14b3ccfe53eaf4c7b72604f/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/b632ba35fc3ce7ef2fe1af80f1c54dc1/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/nabeelahmad/.gradle/caches/transforms-3/b632ba35fc3ce7ef2fe1af80f1c54dc1/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/2d239d6a3b165f234e588104d93b0bc4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/nabeelahmad/.gradle/caches/transforms-3/2d239d6a3b165f234e588104d93b0bc4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/nabeelahmad/Project/React-native/react-app/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion

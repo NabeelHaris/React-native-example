@@ -16,7 +16,7 @@ import { useDispatch, useSelector } from "react-redux";
 const CardComponent = (props) => {
   // props
   const navigation = useNavigation();
-  // const product = useSelector((state) => state.cartProducts);
+  const product = useSelector((state) => state.cartProducts);
   // console.log("product:", product);
   const dispatch = useDispatch();
   const [cartData, setCartData] = useState([]);
@@ -24,18 +24,27 @@ const CardComponent = (props) => {
 
   function setProductToCart(item) {
     console.log("item:", item);
-    const cartRecord = cartData.find((ele) => ele.id == item.id);
+    console.log("cartData:", cartData);
+    const cartRecord = cartData.find((ele) => ele.item.id == item.id);
+    console.log("cartRecord:", cartRecord);
     if (cartRecord) {
       alert("Already exist");
     } else {
-      setCartData((prev) => [...prev, item]);
-      const dataForStore = [...cartData, item];
+      setCount(count + 1);
+      console.log("count:", count);
+      setCartData((prev) => [...prev, { item, quantity: 1 }]);
+      const dataForStore = [...cartData, { item, quantity: 1 }];
       dispatch(setCartProduct(dataForStore));
       console.log("dataForStore:", dataForStore);
-      setCount(count + 1);
     }
-  
   }
+
+  useEffect(() => {
+    if (!product.productsList?.length) {
+      console.log("cartData:", product);
+      setCount(0);
+    }
+  }, [product]);
 
   return (
     <>

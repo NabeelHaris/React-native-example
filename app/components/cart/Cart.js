@@ -1,38 +1,71 @@
 import React, { useState, useEffect } from "react";
-import { ScrollView, Image, StyleSheet, Text, View } from "react-native";
-import { Card, Button, Icon } from "react-native-elements";
+import { useNavigation } from "@react-navigation/native";
+import {
+  Animated,
+  Alert,
+  ScrollView,
+  Image,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllCartproducts } from "../../apis/CartApis";
 import { setCartProduct } from "../redux/actions/CartAction";
 import { connect } from "react-redux";
+import { RectButton } from "react-native-gesture-handler";
+import { Swipeable } from "react-native-gesture-handler";
+
 const Cart = (props) => {
+  const navigation = useNavigation();
   const product = useSelector((state) => state.cartProducts);
+  const dispatch = useDispatch();
   let [totalPrice, setTotalPrice] = useState(0);
-  const [quantityCount, setQuantity] = useState(1);
   console.log("cart-product:", product);
 
-  function incQuantity(item) {
-    setQuantity(quantityCount + 1);
+  function incQuantity(item, quantity, index) {
+    product.productList[index].quantity = quantity + 1;
+    console.log("inc-quantity:", quantity + 1);
     totalPrice += item.price;
     setTotalPrice(totalPrice);
   }
-  function decQuantity(item) {
-    if (quantityCount >= 1) {
-      setQuantity(quantityCount - 1);
+  function decQuantity(item, quantity, index) {
+    if (quantity > 1) {
+      product.productList[index].quantity = quantity - 1;
+      // setQuantity(quantityCount - 1);
       totalPrice -= item.price;
       setTotalPrice(totalPrice);
-    }
-    else {
-      setTotalPrice(0)
+    } else {
+      Alert.alert("Delete", "Do you want delete item ?", [
+        {
+          text: "Yes",
+          onPress: () => deleteItem(index),
+        },
+        {
+          text: "No",
+          cancelable: true,
+          onDismiss: () => Alert.alert("Cancel deletion"),
+        },
+      ]);
     }
   }
+  function deleteItem(index) {
+    console.log("deleteIndex:", index);
+    product.productList.splice(index, 1);
+    console.log("newlist:", product.productList);
+    dispatch(setCartProduct(product.productList));
+    if (product.productList.length == 0) {
+      setTotalPrice(0);
+      navigation.navigate("ProductList")
+    }
+  }
+
   function getTotalAmount() {
     let price = 0;
     product.productList &&
       product.productList.length > 0 &&
       product.productList.map((list, i) => {
         console.log("list--->", list);
-        price += list.price;
+        price += list.item.price;
       });
     setTotalPrice(price);
   }
@@ -44,37 +77,42 @@ const Cart = (props) => {
     <View>
       <ScrollView>
         <Text style={styles.cartTitle}>Cart Component</Text>
-        {product.productList?.map((item, i) => (
+
+        {product.productList?.map((data, i) => (
           <View style={styles.card} key={i}>
             <View style={styles.info}>
               <Image
                 resizeMode="cover"
-                source={{ uri: item.image }}
+                source={{ uri: data.item.image }}
                 style={styles.img}
               />
 
               <View>
-                <Text style={styles.titleText}>{item.title}</Text>
+                <Text style={styles.titleText}>{data.item.title}</Text>
                 <View style={styles.counter}>
-                  <Text style={styles.incBtn} onPress={() => incQuantity(item)}>
+                  <Text
+                    style={styles.incBtn}
+                    onPress={() => incQuantity(data.item, data.quantity, i)}
+                  >
                     +
                   </Text>
-                  <Text style={styles.quantity}>{quantityCount}</Text>
-                  <Text style={styles.incBtn} onPress={() => decQuantity(item)}>
+                  <Text style={styles.quantity}>{data.quantity}</Text>
+                  <Text
+                    style={styles.incBtn}
+                    onPress={() => decQuantity(data.item, data.quantity, i)}
+                  >
                     -
                   </Text>
                 </View>
               </View>
             </View>
             <View style={styles.priceSty}>
-              <Text style={styles.priceTextSty}>Rs/. {item.price} $</Text>
+              <Text style={styles.priceTextSty}>Rs/. {data.item.price} $</Text>
             </View>
           </View>
         ))}
         <View style={styles.total}>
-          <Text style={styles.totalText}>
-            Total: {totalPrice}
-          </Text>
+          <Text style={styles.totalText}>Total: {totalPrice}</Text>
         </View>
       </ScrollView>
     </View>
